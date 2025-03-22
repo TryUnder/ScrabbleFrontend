@@ -4,7 +4,7 @@ function App() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch("https://yellow-meadow-api.azurewebsites.net/api/test")  // Pobiera JSON z backendu
+    fetch("https://yellow-meadow-00395d903.6.azurestaticapps.net/api/test")  // Pobiera JSON z backendu
       .then((response) => setData(response.text()))
       .catch((error) => console.error("Błąd:", error));
   }, []);
