@@ -14,7 +14,7 @@ function App() {
       <h1>Test połączenia React ↔ .NET</h1>
       {data ? (
         <div>
-          <p><strong>Message:</strong> {data}</p>
+          <p><strong>Message from Agusia:</strong> {data}</p>
         </div>
       ) : (
         <p>Ładowanie...</p>
